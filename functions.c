@@ -100,5 +100,100 @@ const char* getSymptomName(int symptomNumber) {
         case 21: return "Tenderness in Joints";
         default: return "";
     }
+void disease(diseaseName) {
+    diseaseName CommonCold = {
+            "Common Cold"
+            symptonNumber(1)
+            symptonNumber(2)
+            "Paracetamol"
+            "$6-$15"
+            prescription != yesprescription
+    diseaseName Influenza = {
+            "Influenza (Flu)"
+            symptonNumber(3)
+            symptonNumber(4)
+            "Oseltamivir"
+            "$50–$60 (10 capsules)"
+            prescription != yesprescription
+    }
+    diseaseName Diabetes = {
+            "Diabetes Type 2"
+            symptonNumber(5)
+            symptonNumber(6)
+            "Metformin"
+            "$10–$20 (30 tablets)"
+            prescription == yesprescription
+    }
+    diseaseName C Hypertension = {
+            "Hypertension (High Blood Pressure)"
+            symptonNumber(7)
+            symptonNumber(8)
+            "Metformin"
+            "$10–$15 (0 tablets)"
+            prescription == yesprescription
+    }
+    diseaseName Gastritis = {
+            "Gastritis"
+            symptonNumber(9)
+            symptonNumber(10)
+            "Omeprazole"
+            "$15–$25 (14 capsules)"
+            prescription != yesprescription
+    }
+    diseaseName Asthma = {
+            "Common Cold"
+            symptonNumber(8)
+            symptonNumber(11)
+            symptonNumber(12)
+            symptonNumber(13) 
+            "Paracetamol"
+            "$20–$50 (30 tablets)"
+            prescription == yesprescription
+    }
+    diseaseName Pneumonia = {
+            "Common Cold"
+            symptonNumber(3)
+            symptonNumber(4)
+            symptonNumber(8)
+            symptonNumber(13)
+            symptonNumber(14)
+
+            "Antibiotics"
+            "$5–$15 (20 tablets)
+            prescription == yesprescription
+    }
+    diseaseName Malaria = {
+            "Malaria"
+            symptonNumber(3)
+            symptonNumber(7)
+            symptonNumber(10)
+            symptonNumber(15)
+            symptonNumber(16)
+            "Chloroquine"
+            "$8–$15 (30 tablets)"
+            prescription == yesprescription
+    }
+    diseaseName Tuberculosis = {
+            "Tuberculosis (TB)"
+            symptonNumber(3)
+            symptonNumber(4)
+            symptonNumber(13)
+            symptonNumber(14)
+            symptonNumber(16)
+            "Rifampin"
+            "$20–$50 (30 tablets)
+            prescription == yesprescription
+    }
+    diseaseName Arthritis = {
+            "Arthritis"
+            symptonNumber(17)
+            symptonNumber(18)
+            symptonNumber(19)
+            symptonNumber(20)
+            symptonNumber(21)
+            "Acetaminophen"
+            "$3–$10 (30 tablets)"
+            prescription == yesprescription
+    }
 }
 
