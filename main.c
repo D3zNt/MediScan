@@ -27,19 +27,19 @@ int main() {
     }
 
     /// Results 
-    printf("=========== MEDISCAN FINAL ADVICE ===========")
-    printf("\t\t\t Your disease is %c\t\t\t\n", disease);
-    printf("\t\t\t We suggest you take %c\t\t\t\n", medicine[1]);
-    printf("
-    printf("\t\t\t Prescription required: ");
-        if (prescription == yesprescription){
-        printf("Yes\t\t\t\n")
-        } else if {
-        printf("Not required\t\t\t\n");
-        }
-    printf("Your medicine price range would be around %c\n\n", medprice[1]);
-    printf("\t\t\t Take a great care of your self! \t\t\t");
-    printf("============== powered by Bapro ==============")
+    printf("=================== MEDISCAN FINAL ADVICE ===================\n");
+    printf("\t Your disease is %c\t\t\n", disease);
+    printf("\t We suggest you take %s\t\t\n", medicine);
+    printf("\t Prescription required: ");
+    if (prescription == yesprescription) {
+        printf("Yes\t\t\n");
+    } else {
+        printf("Not required\t\t\n");
+    }
+    printf("\t Your medicine price range would be around %s\n\n", medprice);
+    printf("\t Take great care of yourself! \t\t\n");
+    printf("====================== powered by Bapro ======================\n");
+
     title();
 
     // wait for the database
