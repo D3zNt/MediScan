@@ -27,7 +27,19 @@ int main() {
     }
 
     /// Results 
-
+    printf("=========== MEDISCAN FINAL ADVICE ===========")
+    printf("\t\t\t Your disease is %c\t\t\t\n", disease);
+    printf("\t\t\t We suggest you take %c\t\t\t\n", medicine[1]);
+    printf("
+    printf("\t\t\t Prescription required: ");
+        if (prescription == yesprescription){
+        printf("Yes\t\t\t\n")
+        } else if {
+        printf("Not required\t\t\t\n");
+        }
+    printf("Your medicine price range would be around %c\n\n", medprice[1]);
+    printf("\t\t\t Take a great care of your self! \t\t\t");
+    printf("============== powered by Bapro ==============")
     title();
 
     // wait for the database
