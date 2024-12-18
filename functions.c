@@ -42,7 +42,7 @@ void symptoms(int prevChoice[23]) {
     printf("\nSelect Symptoms:\n\n");
 
     printf("\nSelect Symptoms:\n\n");
-    printf("-1: Remove Symptoms\n\n");
+    printf("-1: Unselect Symptoms\n\n");
 
     for (int i = 0; i < 21; i++) {
 
@@ -71,6 +71,7 @@ void symptoms(int prevChoice[23]) {
 
 
     printf("\n101: To finish assessment\n");
+    printf("Input: ");
 
 }
 
@@ -100,3 +101,4 @@ const char* getSymptomName(int symptomNumber) {
         default: return "";
     }
 }
+
